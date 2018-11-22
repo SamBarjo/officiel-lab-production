@@ -6,10 +6,10 @@
         </encoder>
     </appender>
 
-    <logger name="org.hibernate.SQL" level="WARN" />
-    <logger name="org.glassfish.jersey" level="WARN" />
+    <logger name="org.hibernate.SQL" level="INFO" />
+    <logger name="org.glassfish.jersey" level="INFO" />
 
-    <root level="WARN">
+    <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>
