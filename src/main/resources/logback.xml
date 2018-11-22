@@ -9,7 +9,7 @@
     <logger name="org.hibernate.SQL" level="OFF" />
     <logger name="org.glassfish.jersey" level="OFF" />
 
-    <root level="INFO">
+    <root level="WARN">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>
