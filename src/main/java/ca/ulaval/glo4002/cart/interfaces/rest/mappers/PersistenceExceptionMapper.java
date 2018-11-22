@@ -13,7 +13,7 @@ public class PersistenceExceptionMapper implements ExceptionMapper<PersistenceEx
 
     @Override
     public Response toResponse(PersistenceException exception) {
-        LOGGER.debug("Persistence error occurred", exception);
+        LOGGER.error("Persistence error occurred", exception);
         return Response.status(Status.BAD_REQUEST).entity(exception.getMessage()).build();
     }
 }

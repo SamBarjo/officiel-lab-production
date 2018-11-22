@@ -13,7 +13,7 @@ public class CannotFindCartExceptionMapper implements ExceptionMapper<CannotFind
 
     @Override
     public Response toResponse(CannotFindCartException exception) {
-        LOGGER.debug("Cannot find cart", exception);
+        LOGGER.error("Cannot find cart", exception);
         return Response.status(Status.BAD_REQUEST).entity(exception.getMessage()).build();
     }
 }

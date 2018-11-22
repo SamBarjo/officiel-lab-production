@@ -13,7 +13,7 @@ public class ItemNotFoundExceptionMapper implements ExceptionMapper<ItemNotFound
 
 	@Override
 	public Response toResponse(ItemNotFoundException exception) {
-	    LOGGER.debug("Cannot find item", exception);
+	    LOGGER.error("Cannot find item", exception);
 		return Response.status(Status.NOT_FOUND).build();
 	}
 
