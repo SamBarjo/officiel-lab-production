@@ -150,9 +150,9 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:git@github.com:SamBarjo/officiel-lab-cart-oo.git</connection>
-		<developerConnection>scm:git:git@github.com:SamBarjo/officiel-lab-cart-oo.git</developerConnection>
-		<url>https://github.com/SamBarjo/officiel-lab-cart-oo</url>
+		<connection>scm:git:git@github.com:SamBarjo/officiel-lab-production.git</connection>
+		<developerConnection>scm:git:git@github.com:SamBarjo/officiel-lab-production.git</developerConnection>
+		<url>https://github.com/SamBarjo/officiel-lab-production</url>
 		<tag>HEAD</tag>
 	</scm>
 
