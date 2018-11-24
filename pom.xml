@@ -149,4 +149,11 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<connection>scm:git:git@github.com:SamBarjo/officiel-lab-cart-oo.git</connection>
+		<developerConnection>scm:git:git@github.com:SamBarjo/officiel-lab-cart-oo.git</developerConnection>
+		<url>https://github.com/SamBarjo/officiel-lab-cart-oo</url>
+		<tag>HEAD</tag>
+	</scm>
+
 </project>
